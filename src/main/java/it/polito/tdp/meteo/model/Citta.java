@@ -7,7 +7,7 @@ public class Citta {
 	
 	private String nome;
 	private List<Rilevamento> rilevamenti;
-	private int counter = 0;
+	private int counter;
 	
 	
 	
@@ -18,6 +18,7 @@ public class Citta {
 	public Citta(String nome, List<Rilevamento> rilevamenti) {
 		this.nome = nome;
 		this.rilevamenti = rilevamenti;
+		this.counter = 0;
 	}
 
 	public String getNome() {
